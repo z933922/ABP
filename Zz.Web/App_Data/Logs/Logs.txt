@@ -3609,3 +3609,205 @@ Model.Person -> Zz.DTOS.ZPeopleOutput
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
    at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-23 09:48:27,276 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-23 09:48:27,302 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-23 09:48:27,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.Web.ZzWebModule, Zz.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzDataModule, Zz.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,312 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,313 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,314 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,315 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzCoreModule, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzApplicationModule, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.Api.ZzWebApiModule, Zz.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:27,332 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-23 09:48:27,610 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:48:27,610 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:48:27,610 [1    ] o.Configuration.LanguageManagementConfig - Converted Zz (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:48:27,610 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:48:28,166 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Zz.EntityFramework.ZzDbContext, Zz.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:48:29,805 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-23 09:48:29,821 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-23 09:48:29,823 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-23 09:48:29,826 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Zz
+DEBUG 2017-02-23 09:48:29,829 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-23 09:48:29,955 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-23 09:48:30,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-23 09:48:30,051 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-23 09:48:30,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-23 09:48:30,054 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Users.Dto.CreateUserInput
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Users.Dto.UserListDto
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.DTOS.ZPeopleInput
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.DTOS.ZPeopleOutput
+DEBUG 2017-02-23 09:48:30,055 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-23 09:48:31,951 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-23 09:48:31,952 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-23 09:48:31,953 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-23 09:48:31,955 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-23 09:48:31,956 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Services.IPeopleSerivice' with service name 'app/peopleSerivice'.
+ERROR 2017-02-23 09:48:34,489 [6    ] Zz.Web.Controllers.ZNewController        - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Model.Person, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Zz.DTOS.ZPeopleOutput, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Model.Person, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Zz.DTOS.ZPeopleOutput, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Person -> ZPeopleOutput
+Model.Person -> Zz.DTOS.ZPeopleOutput
+   at lambda_method(Closure , Person , ZPeopleOutput , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , List`1 , List`1 , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source)
+   at AutoMapper.Mapper.Map[TSource,TDestination](TSource source)
+   at Zz.Services.PeopleSerivice.GetAllPeople() in D:\MY\Zz1\Zz.Application\Services\PeopleSerivice.cs:line 38
+   at Castle.Proxies.PeopleSeriviceProxy.GetAllPeople_callback()
+   at Castle.Proxies.Invocations.IPeopleSerivice_GetAllPeople.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:line 56
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:line 41
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:line 34
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.PeopleSeriviceProxy.GetAllPeople()
+   at Zz.Web.Controllers.ZNewController.Index() in D:\MY\Zz1\Zz.Web\Controllers\ZNewController.cs:line 23
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-02-23 09:54:55,412 [25   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-02-23 09:54:55,414 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-23 09:54:55,415 [25   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-23 09:54:55,415 [25   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-02-23 09:56:06,856 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-02-23 09:56:06,875 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2017-02-23 09:56:06,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.Web.ZzWebModule, Zz.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzDataModule, Zz.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzCoreModule, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.ZzApplicationModule, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Zz.Api.ZzWebApiModule, Zz.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=1.3.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:06,898 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2017-02-23 09:56:07,198 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:56:07,198 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:56:07,198 [1    ] o.Configuration.LanguageManagementConfig - Converted Zz (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:56:07,198 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-02-23 09:56:07,723 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Zz.EntityFramework.ZzDbContext, Zz.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-02-23 09:56:09,303 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-02-23 09:56:09,315 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-02-23 09:56:09,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-02-23 09:56:09,321 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Zz
+DEBUG 2017-02-23 09:56:09,322 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-02-23 09:56:09,415 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-02-23 09:56:09,484 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2017-02-23 09:56:09,484 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-02-23 09:56:09,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-02-23 09:56:09,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Users.Dto.CreateUserInput
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Users.Dto.UserListDto
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.DTOS.ZPeopleInput
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.DTOS.ZPeopleOutput
+DEBUG 2017-02-23 09:56:09,489 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Zz.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-02-23 09:56:11,389 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-02-23 09:56:11,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-02-23 09:56:11,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-02-23 09:56:11,397 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-02-23 09:56:11,403 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Zz.Services.IPeopleSerivice' with service name 'app/peopleSerivice'.
+ERROR 2017-02-23 09:56:16,077 [26   ] Zz.Web.Controllers.ZNewController        - Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Model.Person, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Zz.DTOS.ZPeopleOutput, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+List`1 -> List`1
+System.Collections.Generic.List`1[[Model.Person, Zz.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] -> System.Collections.Generic.List`1[[Zz.DTOS.ZPeopleOutput, Zz.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]] ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Person -> ZPeopleOutput
+Model.Person -> Zz.DTOS.ZPeopleOutput
+   at lambda_method(Closure , Person , ZPeopleOutput , ResolutionContext )
+   at AutoMapper.ResolutionContext.Map[TSource,TDestination](TSource source, TDestination destination)
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at AutoMapper.Mapper.Map[TDestination](Object source)
+   at Zz.Services.PeopleSerivice.GetAllPeople() in D:\MY\Zz1\Zz.Application\Services\PeopleSerivice.cs:line 38
+   at Castle.Proxies.PeopleSeriviceProxy.GetAllPeople_callback()
+   at Castle.Proxies.Invocations.IPeopleSerivice_GetAllPeople.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 53
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 45
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 35
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Auditing.AuditingInterceptor.PerformSyncAuditing(IInvocation invocation, AuditInfo auditInfo) in D:\Halil\Github\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:line 56
+   at Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Auditing\AuditingInterceptor.cs:line 41
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation) in D:\Halil\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\ValidationInterceptor.cs:line 34
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.PeopleSeriviceProxy.GetAllPeople()
+   at Zz.Web.Controllers.ZNewController.Index() in D:\MY\Zz1\Zz.Web\Controllers\ZNewController.cs:line 23
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)

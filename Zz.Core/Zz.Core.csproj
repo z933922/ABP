@@ -97,6 +97,10 @@
     <Compile Include="Enum\TaskState.cs" />
     <Compile Include="IRepository\IPersonRepository.cs" />
     <Compile Include="IRepository\IZTaskRepository .cs" />
+    <Compile Include="Model\School.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="MyNewModule.cs" />
+    <Compile Include="MyNewModuleConfig.cs" />
     <Compile Include="ZzConsts.cs" />
     <Compile Include="ZzCoreModule.cs" />
     <Compile Include="Authorization\ZzAuthorizationProvider.cs" />

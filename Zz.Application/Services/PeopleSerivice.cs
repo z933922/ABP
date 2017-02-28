@@ -11,7 +11,7 @@ using Zz.DTOS;
 
 namespace Zz.Services
 {
-   public   class PeopleSerivice: IPeopleSerivice
+    public class PeopleSerivice : IPeopleSerivice
     {
         private readonly IRepository<Person> _personRepository;
         public PeopleSerivice(IRepository<Person> personRepository)
@@ -32,17 +32,28 @@ namespace Zz.Services
             return _personRepository.InsertAndGetId(person);
         }
 
-        public  IList<ZPeopleOutput> GetAllPeople()
+        public IList<ZPeopleOutput> GetAllPeople()
         {
             var list = _personRepository.GetAll().ToList();
-            var tt = AutoMapper.Mapper.Map<List<Person>, List<ZPeopleOutput>>(list);
+            var tt = AutoMapper.Mapper.Map< List<ZPeopleOutput>>(list);
             return tt;
         }
-      public   ZPeopleOutput GetOnePeople(int peopleid) 
+        public ZPeopleOutput GetOnePeople(int peopleid)
         {
             var person = _personRepository.Get(peopleid);
             ZPeopleOutput model = Mapper.Map<ZPeopleOutput>(person);
             return model;
+        }
+
+
+
+    }
+
+    public static class Ext
+    {
+        public static List<TDestination> MapTo<TSource, TDestination>(this IEnumerable<TSource> source)
+        {
+            return Mapper.Map<List<TDestination>>(source);
         }
 
     }

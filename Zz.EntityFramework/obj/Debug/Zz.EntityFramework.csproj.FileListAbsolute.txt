@@ -55,4 +55,4 @@ D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Zz.Application.pdb
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Abp.AutoMapper.pdb
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Abp.AutoMapper.xml
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\AutoMapper.xml
-D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations.zz216.resources
+D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations._228data2.resources

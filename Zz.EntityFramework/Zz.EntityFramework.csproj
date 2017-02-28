@@ -128,9 +128,9 @@
     <Compile Include="Migrations\201702150544563_zz215.Designer.cs">
       <DependentUpon>201702150544563_zz215.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201702160644469_zz216.cs" />
-    <Compile Include="Migrations\201702160644469_zz216.Designer.cs">
-      <DependentUpon>201702160644469_zz216.cs</DependentUpon>
+    <Compile Include="Migrations\201702280624375_228data2.cs" />
+    <Compile Include="Migrations\201702280624375_228data2.Designer.cs">
+      <DependentUpon>201702280624375_228data2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -167,8 +167,8 @@
     <EmbeddedResource Include="Migrations\201702150544563_zz215.resx">
       <DependentUpon>201702150544563_zz215.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201702160644469_zz216.resx">
-      <DependentUpon>201702160644469_zz216.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201702280624375_228data2.resx">
+      <DependentUpon>201702280624375_228data2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
