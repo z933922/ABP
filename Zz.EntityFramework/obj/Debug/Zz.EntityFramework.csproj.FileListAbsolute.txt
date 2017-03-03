@@ -55,4 +55,6 @@ D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Zz.Application.pdb
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Abp.AutoMapper.pdb
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\Abp.AutoMapper.xml
 D:\MY\Zz1\Zz.EntityFramework\bin\Debug\AutoMapper.xml
-D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations._228data2.resources
+D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations.addorder330.resources
+D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations.addorder331.resources
+D:\MY\Zz1\Zz.EntityFramework\obj\Debug\Zz.Migrations.addorder332.resources

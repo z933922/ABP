@@ -106,8 +106,12 @@
     <Compile Include="DTOS\ZPeopleInput.cs" />
     <Compile Include="DTOS\ZTaskInput.cs" />
     <Compile Include="DTOS\ZPeopleOutput.cs" />
+    <Compile Include="DTOS\ZOrderDetailInput.cs" />
     <Compile Include="DTOS\ZTaskOutput.cs" />
     <Compile Include="IDtoMapping.cs" />
+    <Compile Include="MySettingProvider.cs" />
+    <Compile Include="Services\ISingnalModel.cs" />
+    <Compile Include="Services\SingnalModel.cs" />
     <Compile Include="Services\PeopleSerivice.cs" />
     <Compile Include="Services\IPeopleSerivice.cs" />
     <Compile Include="Services\IZTaskService.cs" />

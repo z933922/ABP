@@ -15,6 +15,17 @@ namespace Zz.EntityFramework
 
         public virtual IDbSet<Person> People { get; set; }
 
+
+        public virtual IDbSet<Order> Order { get; set; }
+
+        public virtual IDbSet<OrderDetail> OrderDetail { get; set; }
+
+
+
+        //public virtual DbSet<DTOS.ZPeopleInput> ZPeopleInputs { get; set; }
+
+        //public virtual DbSet<DTOS.ZPeopleOutput> ZPeopleOutputs { get; set; }
+
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not
@@ -43,8 +54,5 @@ namespace Zz.EntityFramework
 
         }
 
-        public System.Data.Entity.DbSet<Zz.DTOS.ZPeopleInput> ZPeopleInputs { get; set; }
-
-        public System.Data.Entity.DbSet<Zz.DTOS.ZPeopleOutput> ZPeopleOutputs { get; set; }
     }
 }

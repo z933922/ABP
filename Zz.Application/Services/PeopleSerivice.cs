@@ -36,6 +36,15 @@ namespace Zz.Services
         {
             var list = _personRepository.GetAll().ToList();
             var tt = AutoMapper.Mapper.Map< List<ZPeopleOutput>>(list);
+
+            //IList<ZPeopleOutput> tt = new List<ZPeopleOutput>();
+
+            //foreach (Person item in list)
+            //{
+            //    var ZPeopleOutput = AutoMapper.Mapper.Map<ZPeopleOutput>(item);
+
+            //    tt.Add(ZPeopleOutput);
+            //}
             return tt;
         }
         public ZPeopleOutput GetOnePeople(int peopleid)

@@ -14,18 +14,24 @@ namespace Zz
         void IDtoMapping.CreateMapping(IMapperConfigurationExpression mapperConfig)
         {
             //定义单向映射
-            mapperConfig.CreateMap<ZPeopleInput, Person>();
-            mapperConfig.CreateMap<ZPeopleOutput, Person>();
-          //  mapperConfig.CreateMap<Person, ZPeopleOutput>();
-          //mapperConfig.CreateMap<TaskDto, UpdateTaskInput>();
-          //mapperConfig.CreateMap <List<ZPeopleOutput>, List <Person> >();
-
-         
-            //自定义映射
-            var taskDtoMapper = mapperConfig.CreateMap<Person, ZPeopleOutput>();
-              taskDtoMapper.ForMember(dto => dto.DoubleName, map => map.MapFrom(m =>m.Name+"-"));
-          
+            mapperConfig.CreateMissingTypeMaps = true;
         
+
+
+       //     mapperConfig.CreateMap<ZPeopleInput, Person>();
+
+            // mapperConfig.CreateMap<ZPeopleOutput, Person>();
+            // mapperConfig.CreateMap<Person, ZPeopleOutput>();
+            //mapperConfig.CreateMap<TaskDto, UpdateTaskInput>();
+            //mapperConfig.CreateMap <List<ZPeopleOutput>, List <Person> >();
+
+
+            //自定义映射
+
+           
+           
+      
+           
             // Mapping types:
             //Person->ZPeopleOutput
             //Model.Person->Zz.DTOS.ZPeopleOutput

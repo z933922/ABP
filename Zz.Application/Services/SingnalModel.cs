@@ -1,7 +1,11 @@
 ﻿using Abp.Application.Services;
 using Abp.Dependency;
 using Abp.Domain.Repositories;
+using Abp.Runtime.Session;
 using AutoMapper;
+using Castle.MicroKernel.Registration;
+using Castle.MicroKernel.SubSystems.Configuration;
+using Castle.Windsor;
 using Model;
 using System;
 using System.Collections.Generic;
@@ -18,11 +22,41 @@ namespace Zz.Services
     /// </summary>
     public class SingnalModel : ISingnalModel, ISingletonDependency
     {
-       
 
+        public IAbpSession AbpSession { get; set; }
+
+        public SingnalModel()
+        {
+            AbpSession = NullAbpSession.Instance;
+        }
 
     }
 
-   
-   
+
+    /// <summary>
+    ///  IWindsorInstaller 注册
+    /// </summary>
+    //public class MyInstaller : IWindsorInstaller
+    //{
+    //    //public void Install(IWindsorContainer container, IConfigurationStore store)
+    //    //{
+    //    //    container.Register(Classes.FromThisAssembly().BasedOn<ISingnalModel>().LifestylePerThread().WithServiceSelf());
+    //    //}
+    //}
+
+    public class MyClass : ITransientDependency
+    {
+        public IAbpSession AbpSession { get; set; }
+
+        public MyClass()
+        {
+            AbpSession = NullAbpSession.Instance;
+        }
+
+        public void MyMethod()
+        {
+            var currentUserId = AbpSession.UserId;
+           
+        }
+    }
 }
