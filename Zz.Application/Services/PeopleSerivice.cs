@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Services;
 using Abp.Domain.Repositories;
+using Abp.Domain.Uow;
 using AutoMapper;
 using Model;
 using System;
@@ -14,9 +15,12 @@ namespace Zz.Services
     public class PeopleSerivice : IPeopleSerivice
     {
         private readonly IRepository<Person> _personRepository;
-        public PeopleSerivice(IRepository<Person> personRepository)
+
+        private readonly IUnitOfWorkManager _unitOfWorkManager;
+        public PeopleSerivice(IRepository<Person> personRepository, IUnitOfWorkManager unitOfWorkManager)
         {
             _personRepository = personRepository;
+            unitOfWorkManager = _unitOfWorkManager;
         }
 
         public int CreatePerson(ZPeopleInput input)
@@ -32,6 +36,9 @@ namespace Zz.Services
             return _personRepository.InsertAndGetId(person);
         }
 
+
+        [UnitOfWork(IsDisabled = false)]
+       
         public IList<ZPeopleOutput> GetAllPeople()
         {
             var list = _personRepository.GetAll().ToList();
@@ -45,6 +52,15 @@ namespace Zz.Services
 
             //    tt.Add(ZPeopleOutput);
             //}
+
+           // [UnitOfWork(IsDisabled = false)]
+           //    这个下面的操作是一样的， 在同一个工作单元中，就是在同一个事务中。 只是不同的写法，
+            using (var unitOfWork = _unitOfWorkManager.Begin())
+            {
+                //  数据库的操作
+
+                unitOfWork.Complete();
+            }
             return tt;
         }
         public ZPeopleOutput GetOnePeople(int peopleid)

@@ -82,7 +82,7 @@ namespace Zz.Web.Controllers
         {
             TestAsy asy = new TestAsy();
             // 下面两种写法都是委托的写法
-            Func<string, string> fun = (a) => { return a + "你是个大傻逼"; };
+            Func<string, string> fun = (a) => {   return a + "你是个大傻逼"; };
             Func<string, string> fun1 = new Func<string, string>(asy.Method);
 
             Action<int> action = (b) => { b++; };
@@ -91,7 +91,8 @@ namespace Zz.Web.Controllers
             //  创建线程是好资源的事，task 是去线程池里面调用一个空闲的线程执行方法
             var dayName = Task.Run<string>(() => { return fun1.Invoke("ddd"); });
 
-
+            dayName.ContinueWith((a)=> { fun.Invoke("abc"); });
+            dayName.Wait();
 
             // Thread tt = new Thread(new ThreadStart());
 
@@ -99,8 +100,19 @@ namespace Zz.Web.Controllers
 
             //  return View();
         }
+        static async Task Test()
+        {
+            // 方法打上async关键字，就可以用await调用同样打上async的方法
+            // await 后面的方法将在另外一个线程中执行
+            await GetName();
+        }
 
-
-
+        static async Task GetName()
+        {
+            // Delay 方法来自于.net 4.5
+            await Task.Delay(1000);  // 返回值前面加 async 之后，方法里面就可以用await了
+            Console.WriteLine("Current Thread Id :{0}", Thread.CurrentThread.ManagedThreadId);
+            Console.WriteLine("In antoher thread.....");
+        }
     }
 }

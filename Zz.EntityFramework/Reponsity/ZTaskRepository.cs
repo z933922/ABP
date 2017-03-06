@@ -29,6 +29,8 @@ namespace Reponsity
                 query = query.Where(t => t.AssignedPersonId == personId);
             }
             return query.ToList();
+
+            // 如果这个方法中还有其他数据仓储 操作其他数据库的 那么他们都公用一个事务 在abp 中该方法是原子操作。
         }
     }
 }
